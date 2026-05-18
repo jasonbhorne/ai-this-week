@@ -1,0 +1,2379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI This Week - Jason Horne</title>
+<!-- Built 2026-05-17 20:12 by build_site.py. Do not edit by hand. -->
+</head>
+<body>
+<div class="ai-week-page">
+  <style>
+    .ai-week-page { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; }
+    .ai-week { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; }
+    .ai-week + .ai-week { margin-top: 36px; padding-top: 24px; border-top: 3px solid #e5e5e5; }
+    .ai-week h2 { font-size: 1.1em; color: #1a1a1a; border-bottom: 2px solid #e5e5e5; padding-bottom: 6px; margin-top: 28px; margin-bottom: 12px; }
+    .ai-week .week-date { font-size: 1em; font-weight: 700; color: #444; margin-bottom: 20px; }
+    .ai-week ul { list-style: none; padding: 0; margin: 0; }
+    .ai-week li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; display: flex; align-items: flex-start; gap: 10px; }
+    .ai-week li:last-child { border-bottom: none; }
+    .ai-week .tool-badge { display: inline-block; font-size: 0.7em; font-weight: 600; padding: 2px 8px; border-radius: 12px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
+    .ai-week .claude { background: #f0e6d3; color: #8b6914; }
+    .ai-week .chatgpt { background: #d4edda; color: #155724; }
+    .ai-week .gemini { background: #cce5ff; color: #004085; }
+    .ai-week .notebooklm { background: #e2d9f3; color: #4a235a; }
+    .ai-week .magicschool { background: #fce4ec; color: #880e4f; }
+    .ai-week .other { background: #e9ecef; color: #495057; }
+    .ai-week .task-text { font-size: 0.92em; color: #333; line-height: 1.4; }
+    .ai-week .output { font-size: 0.8em; color: #888; font-style: italic; }
+    .ai-week .stats { margin-top: 24px; padding: 12px 16px; background: #f8f9fa; border-radius: 8px; font-size: 0.85em; color: #555; }
+    .ai-week .stats span { font-weight: 600; color: #1a1a1a; }
+    .ai-week .stats .time-total { color: #2e7d32; font-weight: 700; }
+    .ai-week .time-saved { font-size: 0.75em; color: #2e7d32; font-weight: 600; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
+  </style>
+<div class="ai-week">
+<div class="week-date">Week of May 11 - May 17, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran weekly and daily TISA state-funding projections through the close of reporting period RP9, including a fix to a row-dropping bug in the update script.</div>
+        <div class="output">Updated FY27 TISA projection workbooks and dashboard</div>
+      </div>
+      <span class="time-saved">~3h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Investigated how the state classifies CTE health science courses in the county revenue-sharing formula, reconciling 15 enrollment and PowerSchool reports.</div>
+        <div class="output">WFTEADA / CTE reconciliation findings</div>
+      </div>
+      <span class="time-saved">~3h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Daily PowerSchool data-quality error tracking and trend dashboard; traced an end-of-year validation spike to a new reporting-period rule.</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Monthly insurance claims pull across all coverage lines into the 10-year tracking workbook.</div>
+      </div>
+      <span class="time-saved">~1.5h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Weekly student accident report sync to the Looker Studio dashboard.</div>
+        <div class="output">Refreshed accident reporting dashboard</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Compiled the FY26 Administration year-in-review, then rewrote it as a narrative, magazine-style report.</div>
+        <div class="output">FY26 Year in Review .docx</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Processed the 2025-2026 spring employee surveys into longitudinal trend reports, level reports, and per-administrator feedback packets across two practice runs.</div>
+        <div class="output">28-document survey deliverable set</div>
+      </div>
+      <span class="time-saved">~10h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Turned school listening-tour visit notes into standardized building summaries and a department-organized action list.</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built a six-year longitudinal certified-teacher salary dataset for Greeneville plus eight regional peer districts.</div>
+        <div class="output">Salary workbook, narrative report, and re-runnable pipeline</div>
+      </div>
+      <span class="time-saved">~8h saved</span>
+    </li>
+  </ul>
+
+  <h2>Teaching &amp; Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Pre-launch sweep of the summer Marketing Analytics course: syllabus revisions, link verification, rubric and quiz-import validation, and a launch checklist.</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built D2L assignment briefs for all four course case studies (SQL, Cognos, Tableau, and regression).</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built the regression answer key and instructor sample submissions for all four case studies, verifying every cited figure against the real datasets.</div>
+      </div>
+      <span class="time-saved">~2.5h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Verified the Hootsuite and Google Analytics certification assignments against the live sites; found dead links and a fabricated module list, then rewrote both as D2L-safe pages.</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+  </ul>
+
+  <h2>Research &amp; Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran a six-agent research pipeline on elementary a la carte food policy under the Community Eligibility Provision for the incoming nutrition supervisor.</div>
+        <div class="output">Full research report plus a one-page executive brief</div>
+      </div>
+      <span class="time-saved">~11h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran the deep-research pipeline comparing Direct Instruction and inclusion for special education outcomes; 49 sources, cross-referenced and verified.</div>
+        <div class="output">Report published to the jasonhorne.org Research Shelf</div>
+      </div>
+      <span class="time-saved">~12h saved</span>
+    </li>
+  </ul>
+
+  <h2>Code &amp; Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built the /year-end-report skill to generate per-director data request forms and compile the annual administration report.</div>
+      </div>
+      <span class="time-saved">~5h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built the /event-weather skill: weather decision briefs for events and winter snow calls, with an automatic forecast-vs-climatology horizon switch.</div>
+        <div class="output">First run produced the GHS graduation weather brief</div>
+      </div>
+      <span class="time-saved">~4h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Published the fantasy-football Claude skill to the public GitHub repo after a reader request.</div>
+        <div class="output">github.com/jasonbhorne/claude-code-skills</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+  </ul>
+
+  <h2>Website &amp; Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Weekly website and GitHub traffic review combining GA4 and repository analytics.</div>
+        <div class="output">Site review .docx</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>19</span> tasks logged this week, all powered by <span>Claude Code</span> &nbsp;&middot;&nbsp; an estimated <span class="time-total">~75 hours</span> saved vs. doing it by hand
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of May 4 - May 10, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran a full diagnostic on the certified 2025-26 WFTEADA share decline (-1.017 pp, ~$101K/yr loss). Tested CTE hypothesis (falsified at 0.067 pp), discovered net-positive student migration with Greene County, isolated TOPS-G as a 0.96 pp share buffer, and surfaced a separate compliance question on junior-year early graduates.</div>
+        <div class="output">Email + brief + diagnostic xlsx + full report + policy reference for the C-suite</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reframed WFTEADA story after TDOE Local Finance sent the 24-25 master database file. Section A grade-level actually GREW +154 weighted year-over-year; CTE Section B (-168) and Spec Ed Opt 7-9 NPC line going to zero (-64) drove the decline.</div>
+        <div class="output">Corrected follow-up email</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drilled into the CTE Section B -168 weighted decline at the cluster level. Three clusters (Health Sciences, General CTE, Architecture) went from active to zero while Arts grew +25 weighted, suggesting course reclassification rather than program death. Validated the internal CTE tracker reconciles to the TDOE-certified Section B within 3%.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed FY27 School Nutrition budget, located prior-year FY24 and FY26 files, ran FY26→FY27 comparison, and stitched a multi-year workbook covering FY24 through FY27 with key-movers analysis.</div>
+        <div class="output">GCS_SN_Budget_MultiYear_FY24-FY27.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed the FY25 and FY26 SN P&L workbooks. Caught a $65K formula gap on the September 2025 SUB TOTALS row that had inverted FY26 YTD from +$54K surplus to -$11K loss; the bookkeeper had it fixed within minutes.</div>
+        <div class="output">Reconciled PL files, FY26 YTD now +$54,049 surplus through 9 months</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built an executive-ready report on School Nutrition program health with 11 sections, 5 embedded charts, and a multi-year revenue/expense view. $233K YoY P/L swing called out as the headline.</div>
+        <div class="output">GCS_SN_Program_Health_2026-05-04.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Locked Round 1 SN Supervisor interview slate from committee vote tally. Built 7 per-interviewer rubric workbooks (one per committee member, 5 candidate scoresheet tabs each) and the May 11 schedule docx with morning Teams block for two remote candidates.</div>
+        <div class="output">Round 1 schedule + 7 rubric workbooks + selection matrix</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed the SN coordinator's SY 2025-26 excess-balance worksheet and approved the 10% bonus tier ($23,250 total across 33 staff, 4.3% of excess balance).</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran the full-day end-of-year listening tour at one of the elementary schools. 7 sessions captured via Plaud (one via local Whisper after Plaud cap hit), cleaned into individual session docs, plus a C-Team-ready daily roundup leading with "least restrictive for one becomes most restrictive for the rest."</div>
+        <div class="output">Daily roundup docx + 7 session docs</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">CTE academy listening tour visit. Manual notes only (no recordings). Cleaned 4 drop-in conversations into a thematic What I Heard packet; recruitment/visibility surfaced as the dominant thread.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted principal email template for the end-of-year listening tour visits to all schools. Boundaries set: not evaluative, not for same-day emergencies, confidential by default.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Daily TISA RP1-8 projection refresh and SWORD pulls. Generated dated projection files, updated the Daily Tracker, ran a Base ADM trend chart Feb 28 → May 6, and triaged 4 critical 3105 enrollment-overlap errors at two elementary schools.</div>
+        <div class="output">Greeneville_301_TISA_FY27_AprProjection_05062026.xlsx + 05072026.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed the FY27 General Purpose Budget for the 5/11 BOE meeting ($40.6M balanced). Renamed and routed to Finance/Budget folder.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed the closeout Visit 3 high school fire marshal follow-up; every deficiency marked Corrected by the state inspector. Annual cycle closed.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed an attorney memo on HB 1666 (honorifics added to TCA 49-6-5102) and built a searchable Learning note for future reference.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Kicked off the 2026-2027 Copy Paper RFP. Built per-school case projections (790 standard + 70 specialty = 860 total) using a 20/30/50 weighted historical, filed Sep 2025 vendor performance documentation, and held spec-hardening recommendations for the procurement draft.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed second-year property maintenance complaint with Town of Greeneville Code Enforcement for trash on a commercial berm behind one of our schools. Same property as last year, same expected ~3-week cleanup turnaround.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Weekly TLDR AI digest: 13 issues covered (Apr 20-May 6), 56 items flagged across tools, ed-tech, enterprise strategy, governance, skills/agents, data science methods, and leadership foresight.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge other">Power Automate</span>
+      <div>
+        <div class="task-text">Five student accident reports processed end-to-end through the digital pipeline across multiple schools — Microsoft Form intake, principal approval, PDF generation, archive, tracker update.</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>State Conference</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <span class="tool-badge other">Plaud</span>
+      <div>
+        <div class="task-text">Two-day TDOE Annual Fiscal Workshop in Sevierville. Captured 11 sessions across Day 1 and Day 2 via Plaud transcripts and ~150 slide photos; built a master notes file by session and 11 per-session DOCX deliverables. Surfaced multiple high-priority items: SSN collection question (HB2532), personal days bill (HB2343), Better Spending Better Schools Aug 1 reporting (HB2121), Communism Day (PC757), FY27 base $7,530, $50K minimum starting salary.</div>
+        <div class="output">Workshop Notes by Session.md + 11 DOCX files</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Teaching &amp; Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">D2L sanitizer was stripping gradient backgrounds in the MKTG 5618 News pages. Reworked three News HTML files with a D2L-safe template, built three new Content pages (Week 1 briefing with embedded video, course reflection dropbox, Meet Your Instructor with embedded headshot), and built the Knowledge Check 1 Brightspace import (31 questions, generator script, answer key with two corrections from the prior instructor's source).</div>
+        <div class="output">News HTML, Content HTML, Knowledge Check 1 D2L Import.csv</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted a second round of recommendation letters for a former colleague targeting two assistant principal openings. Tailored each to the building context.</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Research &amp; Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Deep research on senior-leader white space, strategic thinking, and reading habits. 4-agent research team (gov, news, academic, industry sources), 14-page report with claim cross-referencing, contradiction analysis, and source reliability matrix. Published to Research Shelf under K-12 Education.</div>
+        <div class="output">2026-05-04 White Space Strategic Thinking and Reading Deep Research Report.docx (45 sources)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built first-cut tuition student marketing analysis from the May 8 PowerSchool pull (581 tuition / 2,215 resident, 20.8% share). 9-section C-team report, demographic skew flagged, K-to-1 retention leak identified, structured data request drafted, and a Tuition Family CRM workbook stood up with 10 KPI formulas.</div>
+        <div class="output">Tuition_Marketing_Report_2026-05-08.docx + CRM template + data request</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Fun deep research on the etymology, slang family, and cultural history of the French word gueule. 12 parallel web searches across Latin gula, the productive root family, Gueules Cassées WWI veterans, Les Gueules Noires miners, French cinema and chanson references, and Quebec joual usage. Tier 1 fact-check pass before publishing.</div>
+        <div class="output">2026-05-05 Gueule French History Research Report.docx (~33 sources), pushed to Research Shelf</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Website &amp; Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Overhauled the jasonhorne.org/resume page. Added a newly published dissertation, reconciled a married name change on a prior committee, and completed two more in-progress entries. Designer agent built a single self-contained HTML CV scoped to .cv-jbh, mobile-collapsible at 520px, print-friendly. Pasted into Squarespace and verified live.</div>
+        <div class="output">jasonhorne.org/resume + Word CV updates</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Code &amp; Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Scaffolded a continuous-improvement repo at ~/Code/skills-ci. 25 pytest tests across daily-sync, bill-tracker, and sword-error-tracking suites plus 3 cross-cutting regression suites (macOS path quirks, format-conversion library use, fabricated-data guards). 22 pass, 3 fail with real signal worth fixing in live skills.</div>
+        <div class="output">~/Code/skills-ci/ (20 files, gated nightly orchestrator stub)</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Beach trip planning. 5 parallel research agents compared Folly, Hilton Head, Isle of Palms, and Atlantic Beach NC across hotels, food, transportation, safety, and budget. Stacked AAA + Hilton Honors options to bring Hilton Head into reach; booked Hilton Beachfront Resort for May 28-31.</div>
+        <div class="output">~/Documents/Travel/Beach-Trip-Jun2026/ (8 docs)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">First production run of the new /data-broker-removal skill in audit-only mode. Walked 14 people-search brokers using personal phone and email; 4 confirmed listings (Spokeo, BeenVerified, ThatsThem, USSearch), 4 bot-blocked, 4 URL templates broken. Patched the skill's broker registry to handle new failure modes.</div>
+        <div class="output">Tracker, audit folder, removal report</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Logged a chapbook contest rejection from the Little Kanawha Reading Series and stood up a chapbook submissions tracker as an ongoing project.</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>27</span> tasks across <span>3</span> AI tools • <span class="time-total">~95 hours saved</span>
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of April 27 - May 3, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Synthesized Ellen Lipe's 64-slide FY27 budget workshop deck and full Plaud transcript into a single reference Word doc. Captured MOE gap, county pennies erosion, health insurance debate, voucher risks.</div>
+        <div class="output">2026-2027 Budget Workshop Notes - 04-27.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reconciled the $108K FY27 state-share drop between the April 13 internal projection and April 28 official state letter; decomposed into fiscal capacity vs share-of-county effects for CFO memo.</div>
+        <div class="output">Memo_FY27_TISA_April_Shift.md</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built student-level TISA reconciliation script comparing state April Preliminary against internal SWORD RP1-8 across Base/ED/SPED/EL/CoD/TCAP/CTE; surfaced Eastview K-2 ED pipeline gap, SPED NULL row bug, two EL tier mismatches.</div>
+        <div class="output">tisa_daily.py + memo to Julie and Richard</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Verified SWORD is still updating after a suspicious 0-error day; compared today's exports against five historical snapshots; traced the quiet day to a 482-row SPED queue cleanup, not a stuck pipeline.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed several School Nutrition Supervisor applicants, ran TN min-qual review on each, and updated the search tracker.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filled three FY27 carrier renewal applications (Work Comp, Liability, Property/Crime) ahead of the procurement renewal cycle.</div>
+        <div class="output">3 FILLED PDFs in Insurance Renewals FY2027 folder</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Generated the May 2026 GCS AI Newsletter using 3 parallel research agents (article finder, media finder, link researcher); archived 15 items to bring total to 190 articles across 21 newsletters.</div>
+        <div class="output">May 2026 Smore Paste + HTML versions</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Cleaned and structured Friday leadership check-ins (5 attendees) into thematic notes and refreshed the action item tracker.</div>
+        <div class="output">Friday Check-Ins - 2026-05-01.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Captured the PowerSchool RFP renewal meeting from two Plaud transcripts into structured notes; locked in 3-yr on-prem SIS bundle at $18,343/yr with 0% uplift, ~$10K/yr savings vs prior pricing.</div>
+        <div class="output">PowerSchool RFP Renewal Meeting 2026-04-30.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Restructured April 28 C-Team meeting notes from raw skeleton plus transcript into thematic H2 sections (in-service, ENA-to-UDT phone migration, election coverage, donations, board update items).</div>
+        <div class="output">C-Team April 28 2026.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted the 2026 spring survey rollout: launch emails for staff, IT customer service, and C-Team heads-up, plus a companion "How Your Feedback Is Used" data-handling doc. Surveys split into 3 SurveyMonkey instances for AP-level evaluations.</div>
+        <div class="output">5 docx files in Surveys/2025-2026/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed Julie Fannon's WIP "Monthly Notes and Thoughts" handoff email into a new Data Analyst Transition folder; converted .eml with embedded screenshots into a clean month-by-month .docx for Connie Walsh's onboarding.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted a TSBA legal-review email vetting proposed Policy 6.308 liability language for students who refuse to buckle up on seat-belt-equipped buses.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted self-signed personal liability waiver releasing GCS for any claim arising from electric scooter use; saved to HR for legal review.</div>
+        <div class="output">Scooter Liability Waiver - Horne.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Daily SWORD error log filing across the week; one warning Friday (missing Cohort Year on a 9th grader); zero errors Thursday.</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Research &amp; Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built a 10-year regional K-12 enrollment trends report covering all 13 NE TN public school systems; ETL handled 4 schemas across the decade. Region lost 7,193 students (-10.7%); Greeneville essentially flat while Greene County lost 14.4%.</div>
+        <div class="output">NE-TN-Enrollment-Trends report on Research Shelf</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Companion 6-year per-pupil expenditure trends report for the same 13 NE TN districts; region weighted PPE grew $9,765 to $13,415 (+37.4%, ~12% real); Greeneville-vs-Greene-County PPE gap widened from $2,060 to $2,735.</div>
+        <div class="output">NE-TN-Finance-Trends report on Research Shelf</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Adapted a draft op-ed about Campbell County's Fifth District elementary consolidation into a private letter to the Campbell County BOE; fact-checked load-bearing financial claims against the underlying scenarios workbook and corrected several inflated numbers.</div>
+        <div class="output">Letter to Campbell County BOE - Fifth District Consolidation.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran /general-research on "Ice Cream as a Superfood"; produced a skeptical evidence-graded report covering the Harvard ice-cream paradox, UPF harms, and the limits of "superfood" as a marketing label.</div>
+        <div class="output">2026-05-02 Ice Cream Superfood Research Report.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built a premium-tier business model and prospect list for a hypothetical tri-cities AI workshops side business (gated on GCS conflict-of-interest review): three-tier ticketing, four revenue streams, 36 named SMB prospects across Law/CPA/Healthcare/Engineering/Manufacturing/Real Estate.</div>
+        <div class="output">AI Workshops Business Model.xlsx + AI Consultant Prospect List.xlsx</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Teaching &amp; Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Closed out the ELPA 5400/6400 "AI Leading and Learning" paper review cycle: 11 banked papers, 11 individual AI Feedback docs (with Loom transcript pulls), and a 4,594-word cohort-wide class report covering recurring strengths, weaknesses, APA rules, annotated readings, and AI-detection patterns.</div>
+        <div class="output">11 per-student docs + _CLASS REPORT.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Took over Dr. Dana Harrison's MKTG 5618 Marketing Analytics for ETSU CBAT Summer 2026; updated syllabus, built week-by-week course calendar, and generated importable ICS calendar with all due dates and 24-hour reminders.</div>
+        <div class="output">MKTG 5618 Syllabus + Course Calendar + .ics</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Code &amp; Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built /job-finder skill: multi-agent job search pipeline for friends. Takes a resume PDF or image, fans out 4 parallel agents (job boards, mission-aligned employer ATS, remote-first boards, salary intel), scores results on a 6-dimension rubric, produces a polished .docx brief and .xlsx tracker.</div>
+        <div class="output">~625 lines of skill content; ran two real candidate jobs same week</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Redesigned the Operations Looker dashboard to switch enrollment from three daily PowerSchool SQL pulls to SWORD ADM exports; built sword_parser.py, refactored daily_workflow.py, added district-wide CTE and SPED tabs, verified district totals match SWORD source to 6 decimals.</div>
+        <div class="output">sword_parser.py + 4 new dashboard tabs</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Overlaid GCS attendance zone polygons on Greeneville town limits using geopandas; produced inside-town and outside-town shapefile pairs, area summary CSV, and overlay map PDF/PNG. Confirmed district attendance footprint is essentially coterminous with town limits.</div>
+        <div class="output">Boundary Overlay folder + Zone_TownLimits_Areas.csv</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Used /travel-planner with 5 parallel research agents to build a NYC weekend trip for the Mets vs Braves home game June 13; anchor game selected, TYS-LGA flights priced ($290/person beat TRI by $300+), Renaissance Flushing booked as base.</div>
+        <div class="output">9-file travel plan in ~/Documents/TRAVEL/nyc-mets-jun2026/</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>26</span> tasks across <span>1</span> primary AI tool (Claude Code orchestrating multi-agent research, document generation, geopandas, python-docx, openpyxl, and external sources via web research)
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of April 20 - April 26, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Processed Chronic Absenteeism accountability snapshot for 278 flagged students into exec summary, 7 per-principal packets, and 5-tab dashboard via the chronic-absenteeism skill</div>
+        <div class="output">Chronic Absenteeism 2026-03-10/ packets and dashboard</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Cleaned Roby Auditorium Partnership Council Meeting 1 notes into a thematic readout flagging GCS scope-creep risk and cost-sheet math errors</div>
+        <div class="output">Roby_Auditorium_Council_Meeting1_Readout-clean.md</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed two more SN Supervisor applicants via the applicant-intake skill; flagged a Bachelor's gap and a "do not contact current employer" note</div>
+        <div class="output">2 PDFs filed, tracker updated 2x</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted GHS gas leak press release for Greeneville Sun and WGRV after Atmos sniffer-truck-triggered evacuation; cleaned leadership debrief transcript with thematic action items</div>
+        <div class="output">Press release + safety debrief docs</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Logged the new Hal Henard principal selection for 2026-27 and updated the GCS people memory file</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Worked through the 2026 PowerSchool PEA implementation questionnaire section by section with GCS-specific answers (TOPS-Bristol relationship, ELL flag, 2027 redistricting)</div>
+        <div class="output">2026 Questionnaire.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Confirmed PEA upload location is in-app Dropbox button and traced the block to PowerSchool not yet provisioning the GCS study; replied on case #08901289</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran TISA weekly update RP9 with new SWORD data; blanked premature RP9 cells across all six ADM sheets and recomputed averages over RP1-RP8</div>
+        <div class="output">Greeneville_301_TISA_FY27_AprProjection_04202026.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Monitor-mode TISA check on fresh SWORD pull caught SPED p9 down ~49 ADM (likely reporting lag); held the weekly projection update and emailed the SPED supervisor</div>
+        <div class="output">SPED p9 Check.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Triaged forwarded emails and Fire Marshal followups: TSBA accessibility extension to 2028, SB2477 ESA failure, TOSS ALI needs assessment, GMS and HH cleared</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filled the FY27 crime coverage renewal questionnaire and built filled PDF via reportlab overlay from prior year</div>
+        <div class="output">2026 Crime Supplemental - FILLED.pdf</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Added two new ROTC Archery lines (Accident $100, GL $463.44) to FY27 insurance tracker; FY27 vs FY25 holds at -0.71%</div>
+        <div class="output">GCS_Insurance_Budget_FY2027.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Updated WFTEADA tracker with TDOE-certified data 2016-17 to 2024-25; Greeneville's share climbed 2.58pp to 34.20% over the period</div>
+        <div class="output">WFTEADA_Tracker.xlsx, WFTEADA Comparison.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Locked final status on all 58 tracked education bills after the 114th GA adjourned sine die a day early: 12 signed, 13 transmitted, 11 awaiting enrollment, 22 dead</div>
+        <div class="output">Bill Tracker - Final Sine Die April 23 2026.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran /check-in skill on five department head emails; produced cleaned docx + PDF, appended 16 action items, uploaded to NotebookLM</div>
+        <div class="output">Friday Check-In/ folder + Friday Check-Ins notebook</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built simplified mayor briefing (academics + accountability only, no finance) from the 7-domain GCS-vs-Greene County deep dive; V2 added demographics and subgroup detail</div>
+        <div class="output">2026-04-24 Mayor Briefing - GCS vs Greene County.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Quick lookup: SDC = Special Day Class flag value used in PEA upload mapping; GCS local equivalent is CDC</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Re-analyzed SN Supervisor stakeholder survey at n=25 (Borda ranking: ops/finance, USDA compliance, staff leadership) and built committee Teams folder with 7 applicant PDFs and screening rubric</div>
+        <div class="output">SN Supervisor Search - Committee Materials/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed March 2026 ScribOrder statement and escalated into a full MSA review (171% Oct 2025 fee increase exceeds CPI/6% cap); drafted renegotiation packet to the vendor</div>
+        <div class="output">ScribOrder MSA review packet</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Teaching &amp; Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed an ELPA 6400 AI paper via /ai-paper-review skill; inserted 36 Word comments and the AI-signal scan landed in High risk band (first this cycle)</div>
+        <div class="output">REVIEWED .docx</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Research &amp; Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Campbell County budget deep dive: docx + 9-tab xlsx with district analysis, per-school TISA model (v2 demographic-weighted), media guide, and consolidation scenarios with explicit layoff schedule (33-page site-cost report OCR)</div>
+        <div class="output">Research/Campbell County Budget/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">7-domain GCS vs Greene County deep dive: 319 paragraphs, 42 tables, 5-sheet xlsx; headline numbers GCS TCAP 53.7 vs 46.2, ACT 20.3 vs 18.5, CA 9.2 vs 16.4</div>
+        <div class="output">Research/greeneville-vs-greene-county/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">East TN peer district budget roundup across 9 districts (Washington, Kingsport, Sullivan, Hawkins, Cocke, Bristol, Hamblen, Knox, Williamson) into a one-page leadership handout</div>
+        <div class="output">East TN School Budget Pressures - FY26 Handout.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">TSSAA Transfer Rule revisions per Tenn. Code Ann. 49-2-901 (HB0025/SB0016, effective 2026-07-01); produced GCS implementation notes for AD/principal briefing</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Adapted media-companion skill for an Iron &amp; Wine song (The Trapeze Swinger): 3 parallel research agents produced a 33-source companion guide, auto-published to research shelf</div>
+        <div class="output">Research/trapeze-swinger/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Adapted media-companion skill for an artist profile: 11-section guide with 54 sources covering Vampire Weekend discography, Time Crisis, Neo Yokio, and a Beyoncé writing credit</div>
+        <div class="output">Research/ artist-profile folder</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Adapted media-companion skill for a song (Hannah Hunt, MVOTC 2013): 38-source guide including a dedicated section on the 2:43 climax</div>
+        <div class="output">Research/hannah-hunt/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Multi-source literature scan on copper bracelet health claims; bottom line is no benefit beyond placebo per Richmond 2009/2013 York trials, auto-published to research shelf</div>
+        <div class="output">Research/copper-bracelets-health/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran tldr-roundup skill across 5 issues (04/13-04/17), flagged 38 of ~79 items into Tools/Strategy/Governance/Skills categories</div>
+        <div class="output">Obsidian TLDR Newsletter Tracker</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Website &amp; Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted blog post for jasonhorne.org explaining the /pensieve skill, framed around the Goblet of Fire pensieve metaphor</div>
+        <div class="output">i-built-a-pensieve.md</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Code &amp; Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built Python post-processor (build_pea_files.py) that pivots race codes and maps grade codes from 4 years of PowerSchool October snapshots; produced 6 PEA-template-compliant upload files</div>
+        <div class="output">Predictive Enrollment/_Upload to PEA/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Identified and unzipped Greeneville Town Limits Esri shapefile to OneDrive; sanity-checked geometry with geopandas and flagged area discrepancy vs 2020 Census (likely UGB not corporate limits)</div>
+        <div class="output">Boundaries/Greeneville_Town_Limits/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Debugged B&amp;GC Hal Henard Power Automate flow null-replace error; root cause was line breaks in pasted fx expression mangling the field ID</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built reusable /negative-balances skill (files report, updates Master Tracker with new dated column, generates exec docx) and ran it on April 22 file (179 students, $3,457 owed)</div>
+        <div class="output">~/.claude/skills/negative-balances/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built reusable /salary-study skill (12 files, 6-phase workflow) for the FY26-27 classified cycle; passed 17 automated checks against live GCS scale plus 8 peer PDFs</div>
+        <div class="output">~/.claude/skills/salary-study/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">First run of /classlink-usage skill (Puppeteer scrape) plus reconciliation against the $688K software portfolio; surfaced two cost-trim candidates that resolved to KEEP after vendor context (Canvas LTI, teacher-only client)</div>
+        <div class="output">GCS_Software_Portfolio_2026-04-23.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Inventoried 49 of 95 ~/.claude/skills/ into a 4-tab xlsx (Recurring/On-Demand/Reference/Legend) with cadence labels for the operational skill set</div>
+        <div class="output">GCS_Skills_Chart_2026-04-23.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Daily SWORD state-reporting error filings; eighth consecutive business day of GHS critical error 3301 on a single student (enrollment/attendance mismatch needs GHS-side cleanup)</div>
+        <div class="output">sword-errors-dashboard.xlsx</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Pre-filled W-9 (name, address, sole-proprietor) for the ASBO July 14 webinar honorarium</div>
+        <div class="output">W9_Horne.pdf</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>39</span> tasks across <span>1</span> AI tool<br>
+    <span class="time-total">Approx. 130 hours saved this week</span>
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of April 13 - April 19, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built TISA Dashboard with Plotly across FY24-FY27 Finals, plus weekly RP7/RP8 projection updates and switch to date-stamped filenames</div>
+        <div class="output">tisa_snapshot_extractor.py, tisa_dashboard_builder.py, dated projection files</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reconciled February, March, and April TISA projections; traced $939K N28 swing to LEA share of county-generated funds and rebuilt LC tab</div>
+        <div class="output">Updated April Projection workbook, reconciliation memo</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Compared SWORD snapshots against February Preliminary ahead of state's monthly pull; flagged TOPS as the only meaningful school mover</div>
+        <div class="output">TISA_SWORD_vs_FebPrelim_Comparison_2026-04-15.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Full Copier RFP analysis across 5 vendors (Sharp, Ricoh, Canon, Centriworks, RJ Young) using 5 parallel agents; built scorecard, TCO model, FY-by-FY breakdown, PaperCut verification</div>
+        <div class="output">GCS_Copier_RFP_Analysis.xlsx (9 sheets)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Launched School Nutrition Supervisor search after Karen Wilhoit's retirement: job posting, three stakeholder surveys, applicant tracker, timeline</div>
+        <div class="output">Search 2026/ folder, Job Posting, Surveys, SN Supervisor Applicant Tracker.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed five SN Supervisor applicants (Willett, Hensley, Barbour, Crocker, Holt) via the applicant-intake skill; verified legal names against forms, flagged disclosures and salary asks</div>
+        <div class="output">5 renamed PDFs filed, tracker updated 5x</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Analyzed SN Director stakeholder survey (14 responses), ranked seven leadership qualities, summarized themes, identified 7 willing committee members</div>
+        <div class="output">SN Director Survey Findings 2026-04-14.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Rebuilt Digital Accident Report workflow with standard M365 connectors only (Form + Power Automate + HTML to PDF), then added Student Address field and per-school nurse routing</div>
+        <div class="output">accident_report_template.html, BUILD-GUIDE.md, principal-routing.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched WFTEADA mechanics including City of Athens v. McMinn County (2014); confirmed Greene County rural school bond debt structure and inside-levy implications</div>
+        <div class="output">WFTEADA tracker scaffold, Morrison follow-up email</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Stood up daily Sword error tracking pipeline with multi-sheet XLSX dashboard; identified GHS 3500 cleanup noise and TOPS overlapping enrollments</div>
+        <div class="output">sword_errors_summary.py, sword-errors-dashboard.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built Power Automate flow for Hal Henard B&GC attendance: sorted student list, HTML email with count and date</div>
+        <div class="output">B&GC Attendance flow with sort/select/compose pattern</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Two Bill Tracker updates after EFA expansion (HB 2532/SB 2247) cleared both chambers; logged TISA hold-harmless provisions and 14 other bill changes</div>
+        <div class="output">Bill Tracker AM and PM updates</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Cleaned PowerSchool Predictive Enrollment kickoff transcript, organized 8 PEA attachments, drafted heads-up email to Town of Greeneville</div>
+        <div class="output">Meeting summary docx, Predictive Enrollment/ folder</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Cleaned C-Team meeting notes and updated tracker with new action items (Karen retirement, HHE search, MasteryConnect, PEA, Mental Health Grant)</div>
+        <div class="output">Apr 14 2026-clean.docx, C-Team Tracker updated</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Cleaned LEPC Emergency Management meeting notes covering hazardous waste program, lithium battery safety, and county hazard mitigation plan</div>
+        <div class="output">LEPC meeting notes docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">ASBO International webinar planning: pulled Deron's email and attachments, recovered topic and learning objectives from ACE 2026 proposal</div>
+        <div class="output">ASBO Webinar 2026/ folder organized</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Updated resume and organized ASBO Education Advisory Committee files (Future Trends and Strategic Foresight Track, 2026-2028)</div>
+        <div class="output">ASBO Committee/ folder, updated resume</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed March 2026 finance reports via Finance Filing skill; converted XLS and XLSX to PDF, updated tracker</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Identified misrouted CMS-1500 health insurance claim form delivered to GHS; researched NUCC, Oaks PA back-office routing, recommended PHI handling</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Filed Highland audio enhancement quote ($49K from Central Technologies via Sevier County contract piggyback)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Rewrote softball coach email more tactfully via internal-comms skill (head coach as point of contact, Parks and Rec turf scheduling)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Created Friday Check-Ins notebook to centralize leadership check-in content for Q&A and synthesis</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Created Ricoh Business Solutions Proposal notebook for interactive Q&A on the copier RFP submission</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Teaching & Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed an ELPA 6400 AI paper with full XML formatting audit; corrected first-pass errors and improved the ai-paper-review skill (267 to 441 lines)</div>
+        <div class="output">REVIEWED .docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed a second ELPA 6400 paper with verify-first formatting audit before writing comments; 18 rubric-tagged comments inserted</div>
+        <div class="output">REVIEWED .docx</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Research & Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Horne paternal genealogy deep research: GEDCOM cleanup pipeline, 184 direct ancestors over 14 generations across Horne, Bruce, Rose, Osborne, Kilgore lines</div>
+        <div class="output">Horne Family Tree.FINAL.ged, Horne paternal report .docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Quillen-Casteel maternal research with 7-agent parallel pipeline; 170 direct ancestors, corrected Casteel origin to Flemish, added Augustine Berry as 9th DAR patriot</div>
+        <div class="output">Quillen-Casteel maternal report .docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">AncestryDNA raw data deep dive (677,436 SNPs, V2.0 array): ancestry composition, autosomal heterozygosity, Eastern KY/VA settler ancestral journeys</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Combined Horne paternal and Quillen-Casteel maternal report with father-son DNA analysis (99.99% Mendelian concordance); published to GitHub for family sharing</div>
+        <div class="output">Combined report .docx, GitHub publish</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Real Leadership book positioning research: 6-agent pipeline mapping ed leadership canon, compliance critique tradition, publisher landscape, TN compliance stack</div>
+        <div class="output">Real Leadership Book Positioning Research Report .docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Background research and v1 dialogue draft for Woodcock-Johnson McSweeney's piece; verified prior-art lane is open</div>
+        <div class="output">Comedy Research Brief.docx, Woodcock Dialogue.docx</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Code & Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built /gcs-surveys skill: reproducible spring survey analysis pipeline (longitudinal report, internal C-Team report, level reports, per-administrator feedback)</div>
+        <div class="output">~/.claude/skills/gcs-surveys/</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built /tldr-roundup skill with weekly Monday launchd job, Obsidian tracker, and backfilled first digest (23 items flagged across 6 issues)</div>
+        <div class="output">tldr-roundup skill, com.hornej.tldr-roundup.plist</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Generated TLDR AI weekly roundup covering Claude 4.7 release, Claude Code Routines, Cowork GA, Perplexity Personal Computer, NotebookLM Canvas</div>
+        <div class="output">2026-04-17 - TLDR Weekly Roundup vault note</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Installed travel-planner skill from GitHub and ran 5 sub-agents to plan a Vegas trip (TYS nonstop, Horseshoe, Mystère, 4-dinner lineup, $4,500 budget)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Flight search for Pittsburgh Oct 13-16 (AC&E conference); recommended TYS via DCA at ~$218 round trip over TRI options</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>43</span> tasks across <span>2</span> AI tools<br>
+    <span class="time-total">Approx. 110 hours saved this week</span>
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of April 6 - April 12, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Updated FY27 TISA projection with actual Period 7 data from SWORD, corrected an elementary K-2 reporting error, built automated weekly update script</div>
+        <div class="output">Projection file, tisa_update.command, archived SWORD exports</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Processed 3-day TDASC conference (PowerSchool, TISA/SWORD, Legislative Update) into structured session notes with action items</div>
+        <div class="output">5 session .docx files, transcripts, slide photo analysis</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reconciled legislative update session against slides, transcript, and meeting notes. Added 19 new bills to tracker (58 total), corrected 5 bill number errors</div>
+        <div class="output">Bill Tracker - April 10 2026 Session Update v2.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Fixed enrollment pipeline data corrections for 3 students with unknown school or ethnicity values in PowerSchool exports</div>
+        <div class="output">Updated enrollment.py</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Created centralized lawsuit tracker and reorganized Legal/ folders for three active GCS cases</div>
+        <div class="output">GCS Lawsuit Tracker.xlsx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Analyzed TN Comptroller's 10 Fiscal Health Principles memo against GCS operations, created self-assessment checklist</div>
+        <div class="output">GCS Fiscal Health Principles Self-Assessment.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Created GCS Informal Resolution Procedure to complement PECCA MOU, modeled on TASB DGBA framework</div>
+        <div class="output">GCS Informal Resolution Procedure.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Planned TISA dashboard for year-over-year projection drift analysis (paused pending historical file uploads)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed 4 coaching/teaching candidate resumes for open position</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched SB 2371 / HB 2148 (Teacher Tenure / Temporary Permits) bill text and GCS impact</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Analyzed whether GCS board's Director of Schools selection aligned with community and staff survey feedback</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Teaching &amp; Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built full Director of Schools interview prep package for a colleague: district data profile, question bank, cheat sheet, 90-day plan</div>
+        <div class="output">5 documents + NotebookLM podcast briefing, emailed to candidate</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Generated audio podcast briefing from interview prep documents for on-the-go candidate review</div>
+        <div class="output">Interview_Prep_Podcast.mp4</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted recommendation letter for a colleague applying for a Director of Schools position</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted recommendation letter for a former colleague applying for an assistant principal position</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Completed PULSE TN Leadership Intensive application with three essay responses</div>
+        <div class="output">Application submitted via Qualtrics</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Research &amp; Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted Tech Tips article for ASBO School Business Now magazine on using Claude Code for district operations</div>
+        <div class="output">~1,800 word article with FERPA/privacy section</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Created FERPA compliance addendum and Microsoft Copilot comparison for Claude Code training proposal package</div>
+        <div class="output">Claude Code Data Privacy Addendum - FERPA Compliance.docx</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Multi-agent research report on whether AI performs better for polite users (7 peer-reviewed studies analyzed)</div>
+        <div class="output">AI Politeness Effects Research Report.docx, published to Research Shelf</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Research report on bubble craps vs. traditional craps probability distributions (20+ sources, math verified via Python)</div>
+        <div class="output">Published to Research Shelf + GitHub</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Generated Whiplash (2014) companion guide with behind-the-scenes research from 37 sources</div>
+        <div class="output">Companion guide .docx, published to Research Shelf</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed and edited March Madness Final Scorecard blog post (model went 42/63, nailed the championship)</div>
+        <div class="output">Blog post ready for Squarespace</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted TISA automation blog post: "I Don't Have to Wait on the State Anymore"</div>
+        <div class="output">843-word draft</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Website &amp; Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built Research Shelf page for jasonhorne.org: 27 downloadable reports, PII audit (2 excluded, 9 fixed), GitHub repo, card grid with filters</div>
+        <div class="output">Live at jasonhorne.org/research, github.com/jasonbhorne/research-shelf</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Weekly site review: GA4 analytics, GitHub traffic analysis, bot traffic detection (Singapore), referrer tracking</div>
+        <div class="output">Site review .docx with recommendations</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Submitted conference proposals to TETA Summer Institute and FETC 2027, emailed ASBO about late submissions</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Set up ASBO International webinar discussion: reviewed proposal, created project note, generated calendar invite for April 14 call</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Code &amp; Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built /conference-notes skill for compiling Plaud transcripts into polished .docx reports with parallel processing</div>
+        <div class="output">conference-notes/SKILL.md</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built /publish-research skill to automate PII scan, docx-to-PDF, GitHub upload, and Research Shelf card generation</div>
+        <div class="output">publish-research/SKILL.md</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Implemented all /insights suggestions: 4 new skills (log-session, research-report, validate-document, resolve-path), 7 CLAUDE.md rules, workspace manifest</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Created 4 hookify safety rules: privacy guard, financial comms check, Greeneville spelling, destructive ops blocker</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Re-authenticated expired GWS Gmail OAuth token</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Appalachian Aurora: interactive HTML nightscape visualization with layered mountain ridgelines, animated aurora, and firefly interactions</div>
+        <div class="output">appalachian-aurora.html (open build)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Desktop cleanup: moved 4 files to OneDrive, deleted old screenshots, organized Downloads (18 files sorted)</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>37</span> tasks across <span>2</span> AI tools (Claude Code, NotebookLM) &mdash; Est. <span class="time-total">~95 hours</span> saved
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of March 30 - April 5, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Upgraded the TN bill tracker with amendment tracking and ran all 38 bills, pulling 51 amendments with GCS impact flags.</div>
+        <div class="output">6-sheet Excel tracker; 12 amendments flagged for GCS</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built State of the District briefing doc and interactive org chart for incoming Director of Schools Matt Drinnon, then revised with departmental wins, AI adoption, and CIP summary.</div>
+        <div class="output">Briefing doc + HTML org chart + poster layouts</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Extracted insurance premiums from PEP PDFs via OCR and projected FY2027 budget with rate changes, George Clem removal, dividends, and specialty updates.</div>
+        <div class="output">Python OCR pipeline + budget projection</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran IT Data Systems Analyst hiring cycle: candidate comparison workbook, score tally sheets for 8 candidates, offer extended to top pick.</div>
+        <div class="output">Consolidated rubric workbooks; Connie Walsh hired</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Generated interview questions and scoring rubric for a director-level hire.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Compared contracts clause-by-clause.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Cleaned up the Legislative OneDrive folder and updated the bill-tracker HTML email template.</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Research & Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Deep research on Missouri's SRSA through-year testing program as a TCAP alternative model.</div>
+        <div class="output">Research report (.docx)</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched TN voucher expansion HB2532, confirmed ESA funds cannot be used for public school tuition.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched the legal ramifications of a recent controversial event involving a school board member.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Deep research on famous second sons in European and British primogeniture for a book project.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Wrote the "What I Built in March 2026" roundup blog post and polished the march-madness-2026 GitHub README.</div>
+        <div class="output">Published on jasonhorne.org</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Website & Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Weekly site review and LinkedIn post promoting the bill tracker blog piece.</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Code & Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built an interactive Career Galaxy visualization, shipped the new /open-build skill for autonomous creative mode, and wrote a blog post about the experience.</div>
+        <div class="output">New skill + interactive artifact + post</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built a web scraper to pull public meeting records and analyze patterns across a large archive.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Set up a CourtListener-powered federal case tracker after moving lawsuit files and reviewing the MSJ.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built a weighted-matrix Decision Engine tool via /open-build after scrapping a duplicate constellation build.</div>
+      </div>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Produced a complete Claude Code summer training package for GCS: training plan, cost proposal, quick start guide, and proposal memo for Drinnon.</div>
+        <div class="output">Full proposal package (.docx)</div>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Reviewed Weston's French paper corrections, caught ~20 additional errors beyond the initial round.</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>20</span> tasks across <span>1</span> AI tool, roughly <span class="time-total">65 hours</span> saved vs doing it by hand
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of March 23 - 29, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Analyzed TISA FY27 March Preliminary data, identified N* reporting anomaly accounting for 94% of apparent enrollment decline, built TISA monitoring skill</div>
+        <div class="output">Updated TISA prediction workbook, SWORD analysis, new /tisa skill</div>
+      </div>
+      <span class="time-saved">~8h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Completed Westchester cyber insurance renewal application and ACE cyber crime questionnaire with revenue projections and security control documentation</div>
+        <div class="output">Two filled PDF applications ready for signature</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Updated TN legislative bill tracker twice: TSBA data (9 bills, 29 field changes) and weekly update with advocacy email drafts</div>
+        <div class="output">Updated tracker spreadsheets, legislative update email</div>
+      </div>
+      <span class="time-saved">~4h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted advocacy emails to Rep. Hawk and Sen. Southerland on two bills: HB 2393 (K-5 screen ban) and HB 2485 (TISA ED expansion)</div>
+        <div class="output">Four tailored advocacy emails with GCS-specific data</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Processed negative lunch balance data: 129 students, $3,152 total debt, identified collection strategy for chronic non-payers</div>
+        <div class="output">Analysis report (.docx) with Policy 3.500 recommendations</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Downloaded and filed FY 2025-2026 finance reports from BOE Connect, created tracking spreadsheet with automated Puppeteer cowork script</div>
+        <div class="output">Finance Report Tracker spreadsheet, 10 archived PDFs</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Processed Friday leadership check-in notes: cleaned formatting, extracted 17 action items, uploaded to NotebookLM</div>
+        <div class="output">Cleaned DOCX/PDF, updated action item tracker</div>
+      </div>
+      <span class="time-saved">~1h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built GCS org chart CSV with scraped staff photos for LucidChart import (50 photos, full hierarchy)</div>
+        <div class="output">CSV, PNG export, LucidChart diagram</div>
+      </div>
+      <span class="time-saved">~4h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Created DOS transition dashboard (interactive HTML) and briefing document for leadership change</div>
+        <div class="output">Transition dashboard and briefing .docx</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Analyzed ScribOrder February statement, updated tracking, determined $92 YTD net cost is acceptable</div>
+        <div class="output">Updated ScribOrder tracking spreadsheet</div>
+      </div>
+      <span class="time-saved">~1h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran daily enrollment workflow: uploaded to Google Sheets (1,730 enrollment rows, 121 GTC, 355 withdrawals)</div>
+      </div>
+      <span class="time-saved">~30m</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched language access liability after GHS medical emergency, drafted C-Team email citing Title VI and Section 1557</div>
+        <div class="output">Legal analysis email sent to C-Team</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Created C-Team Meetings notebook for cumulative meeting context and Friday Check-Ins notebook for weekly leadership notes</div>
+      </div>
+      <span class="time-saved">~1h</span>
+    </li>
+  </ul>
+
+  <h2>HR and Hiring</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built IT Data Analyst interview rubric with 11 weighted categories and 13 questions, generated 7 individual candidate rubrics</div>
+        <div class="output">Master rubric + 7 candidate-specific Excel files</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Prepared IT Data Systems Analyst screening committee materials: isolated 11 candidate packets, created interview planning agenda</div>
+        <div class="output">Interview planning agenda .docx, organized candidate packets</div>
+      </div>
+      <span class="time-saved">~1h</span>
+    </li>
+  </ul>
+
+  <h2>Teaching and Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Deep research on AI in university settings: student perceptions, usage rates, and institutional policy gaps (50+ sources, 44 in final report)</div>
+        <div class="output">7-section research report (.docx), fact-checked and corrected</div>
+      </div>
+      <span class="time-saved">~12h</span>
+    </li>
+  </ul>
+
+  <h2>Research and Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Wrote and published "Trust Us With the Screens" blog post responding to TN HB 2393, plus LinkedIn companion post</div>
+        <div class="output">Published: jasonhorne.org/blog/tennessee-k5-screen-ban-hb2393</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Wrote and published "Notes on Public Failure" personal essay about the Director of Schools outcome (went viral, 665 views in 48 hours)</div>
+        <div class="output">Published: jasonhorne.org/blog/2026/3/24/notes-on-public-failure</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Wrote and published March Madness Sweet 16 predictions post (third in ML bracket series, model at 68.8%)</div>
+        <div class="output">Published: jasonhorne.org/blog/the-model-vs-march-madness-sweet-16-predictions</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted outreach email to Anthropic about Claude Code usage for K-12 district operations</div>
+      </div>
+      <span class="time-saved">~30m</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Started Elizabethton keynote presentation for May 5 AI presentation</div>
+        <div class="output">PowerPoint draft in progress</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+  </ul>
+
+  <h2>Website and Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Two weekly site reviews: Mar 17-23 (+59.6% users) and Mar 20-26 (+558% users, 961 total). Blog posts driving massive Facebook traffic.</div>
+        <div class="output">Two analytics reports (.docx), LinkedIn post draft</div>
+      </div>
+      <span class="time-saved">~2h</span>
+    </li>
+  </ul>
+
+  <h2>Code and Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Ran /insights analysis (120 sessions, 123 hours last month), added PostToolUse hooks for session logging and auto-open deliverables, created /daily-sync skill with nightly launchd agent</div>
+        <div class="output">New hooks, /daily-sync skill, launchd automation</div>
+      </div>
+      <span class="time-saved">~4h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built TISA monitoring skill with 5 analysis modes and full SWORD/TEDS data flow documentation</div>
+        <div class="output">New /tisa skill</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Business model thought experiment: full LLC setup exercise with financial projections, pricing tiers, bookkeeping workbook, invoice template, and website content</div>
+        <div class="output">Business plan, books.xlsx, contract templates, website HTML</div>
+      </div>
+      <span class="time-saved">~6h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Set up sole proprietorship consulting business: obtained EIN, created directory structure, built Squarespace consulting page, created 37-day TikTok content calendar</div>
+        <div class="output">EIN filed, consulting page HTML, content calendar .xlsx</div>
+      </div>
+      <span class="time-saved">~5h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Fantasy baseball live draft assistant: real-time analysis across 26 rounds for Campbell County league (8-team H2H)</div>
+        <div class="output">Full roster with category grades, post-draft waiver moves</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">NCAA tournament model progress check: compared ML predictions against actual Sweet 16 results</div>
+      </div>
+      <span class="time-saved">~30m</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Generated companion guide for Project Hail Mary (40 sources, film/book analysis, recommendations)</div>
+        <div class="output">Companion guide .docx</div>
+      </div>
+      <span class="time-saved">~3h</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Found and set up PIA VPN on macOS from forgotten subscription</div>
+      </div>
+      <span class="time-saved">~20m</span>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>34</span> tasks across <span>2</span> AI tools &mdash; Est. <span class="time-total">~90 hours</span> saved
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of March 14 - 22, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Three deep research reports on AI in school district operations: playbook (52 sources), department-by-department analysis (30+ tools evaluated), and best practices across 9 domains (64 sources). All used parallel research agents.</div>
+        <div class="output">3 .docx reports in ~/Documents/Research/</div>
+      </div>
+      <span class="time-saved">~33h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">TN legislative passed bills impact analysis: researched 6 bills that cleared both chambers, wrote GCS-specific action items and a looking-ahead table for 8 bills still in play.</div>
+        <div class="output">.docx to OneDrive-GCS/Legislative/</div>
+      </div>
+      <span class="time-saved">~5h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Revised Board Policy 3210 facility naming petition cycle language. Applied as tracked change in Word for board review.</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Letter of recommendation for a colleague applying for Director of Schools. Transcribed voice notes, extracted handwritten signature from PDF, generated .docx.</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Generated a 4-phase MagicSchool AI staff training program for GCS (2026-2027) with Kirkpatrick evaluation framework.</div>
+        <div class="output">.docx training plan</div>
+      </div>
+      <span class="time-saved">~4h saved</span>
+    </li>
+  </ul>
+
+  <h2>Teaching &amp; Academic</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Full dissertation review: 8 parallel agents analyzed 720 paragraphs, inserted 104 Word comments covering APA 7, methodology, statistics, and writing quality.</div>
+        <div class="output">Annotated .docx returned to student</div>
+      </div>
+      <span class="time-saved">~10h saved</span>
+    </li>
+  </ul>
+
+  <h2>Research &amp; Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">ML analysis of TN school letter grades: trained stacked ensemble (XGBoost R&#178;=0.823), SHAP analysis, GCS case study showing 8.1-point outperformance. Published blog post with interactive figures.</div>
+        <div class="output">Blog: jasonhorne.org/blog/predicting-achievement-without-test-scores</div>
+      </div>
+      <span class="time-saved">~14h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">March Madness bracket predictor: stacked ML ensemble trained on 18 years of data, 10K Monte Carlo sims, auto-updating ESPN tracker on GitHub Pages. Round 1: 22/30 correct (73.3%). Two blog posts published.</div>
+        <div class="output">Blog + live tracker: jasonbhorne.github.io/march-madness-2026/tracker.html</div>
+      </div>
+      <span class="time-saved">~22h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Four media companion guides generated: In France Profound, The Hard Thing About Hard Things, DTF St. Louis (HBO), and Severance (Apple TV+). Multi-agent research with 25-51 sources each.</div>
+        <div class="output">4 .docx companion guides</div>
+      </div>
+      <span class="time-saved">~10h saved</span>
+    </li>
+  </ul>
+
+  <h2>Website &amp; Social</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Three site reviews pulling GA4 analytics and GitHub traffic across 11 repos. Weekly users doubled (+111%), 325+ GitHub clones from 120+ unique users, fantasy football SEO driving organic search.</div>
+        <div class="output">.docx reports in ~/Documents/Website Reviews/</div>
+      </div>
+      <span class="time-saved">~5h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Created AI This Week skill and Squarespace page. Auto-generates weekly HTML from Obsidian session logs and NotebookLM API.</div>
+        <div class="output">Live at jasonhorne.org/ai-this-week</div>
+      </div>
+      <span class="time-saved">~4h saved</span>
+    </li>
+  </ul>
+
+  <h2>Code &amp; Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Installed oh-my-claudecode (multi-agent orchestration with 19 agents), Google Workspace CLI, and adapted 4 agent personas for K-12 district context. Authenticated gws with OAuth.</div>
+      </div>
+      <span class="time-saved">~7h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Crawled GitHub for community Claude Code skills: installed 49 new skills from 17 repos, built a usage tracker that auto-stars repos earning positive ratings.</div>
+      </div>
+      <span class="time-saved">~9h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built fantasy football skill with 4 modes (draft prep, live draft, weekly matchup, trade analyzer) using parallel research agents. Published blog post.</div>
+        <div class="output">Blog: jasonhorne.org/blog/2026/3/15/multi-ai-to-single-command-ff</div>
+      </div>
+      <span class="time-saved">~7h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Set up Roborock vacuum CLI control with interactive .command file for Q10 S5+. Authenticated via 2FA code login.</div>
+      </div>
+      <span class="time-saved">~3h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Workspace optimization: added scoped permissions, pruned 24 redundant skills (97 to 73), added shell syntax hook, cleaned stale backups.</div>
+      </div>
+      <span class="time-saved">~3h saved</span>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Wrote 5 SEO blog posts, website action items document, and a "Getting Started with Claude" guide for a friend's roofing business in East TN.</div>
+        <div class="output">3 .docx files delivered</div>
+      </div>
+      <span class="time-saved">~7h saved</span>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>24</span> tasks across <span>1</span> AI tool (Claude Code dominated this week) &mdash; Estimated time saved: <span class="time-total">~146 hours</span>
+  </div>
+</div>
+
+<div class="ai-week">
+<div class="week-date">Week of March 7 - 15, 2026</div>
+
+  <h2>District Operations</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Drafted a formal records preservation notice for district legal compliance</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched Tennessee compulsory attendance law, including progressive intervention requirements and federal protections</div>
+        <div class="output">60-source research report (.docx)</div>
+      </div>
+      <span class="time-saved">~8h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Tested MagicSchool AI platform and generated a 4-phase staff training program for GCS (2026-2027) with Kirkpatrick evaluation framework</div>
+        <div class="output">Training program document (.docx)</div>
+      </div>
+      <span class="time-saved">~4h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Discussed school board governance procedures and legal standing questions</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Researched legality of a NC school board meeting scheduled on a Sunday without a published agenda</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Troubleshot Microsoft MADC calendar questions</div>
+      </div>
+      <span class="time-saved">~15m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Built a salary study notebook for the GCS 2025-2026 certified salary study committee</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Created an operations team notebook for GCS leadership coordination</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Set up a Friday check-ins notebook for recurring leadership meeting notes</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Created a board policy notebook (shared) for GCS policy review</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Built a notebook on school nutrition budget constraints and cafeteria options</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+  </ul>
+
+  <h2>Research</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Deep research on school operations impact on student achievement (HR, facilities, nutrition, transportation, finance). 6-agent team, 48 sources.</div>
+        <div class="output">10,000-word research report (.docx)</div>
+      </div>
+      <span class="time-saved">~12h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Deep research on screen time and K-12 academic performance. First run of the new /deep-research skill. 4 agents, 45 sources, 3 contradictions identified.</div>
+        <div class="output">Research report with source reliability matrix (.docx)</div>
+      </div>
+      <span class="time-saved">~10h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">AI in school operations playbook: evidence-based 4-phase implementation guide for district leaders. 52 sources, TN-specific policy analysis.</div>
+        <div class="output">Playbook research report (.docx)</div>
+      </div>
+      <span class="time-saved">~10h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">AI in district operations by department: 7-department breakdown with 30+ named tools evaluated for small-district viability</div>
+        <div class="output">Department-level research report (.docx)</div>
+      </div>
+      <span class="time-saved">~8h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Researched GCS historical rankings across Niche, US News, GreatSchools, and SchoolDigger (2010-present) using a 6-agent research team</div>
+        <div class="output">Rankings tracking spreadsheet (.xlsx, 8 tabs)</div>
+      </div>
+      <span class="time-saved">~6h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Loaded screen time and school operations research reports into NotebookLM notebooks for interactive Q&A and podcast generation</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+  </ul>
+
+  <h2>Interview Prep</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Integrated GCS rankings data into Director of Schools interview cheat sheets. Updated with trajectory analysis, awards stack, and TN letter grades.</div>
+        <div class="output">Updated interview cheat sheets (.docx)</div>
+      </div>
+      <span class="time-saved">~3h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge notebooklm">NotebookLM</span>
+      <div>
+        <div class="task-text">Created an interview prep notebook with 11 sources (prep docs, rankings spreadsheet, board transcript) and generated a podcast-style audio briefing</div>
+        <div class="output">Audio briefing (.wav)</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Practiced mock interview responses and structured a 10-minute introduction for the public candidate forum</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Refined professional writing about AI tools and leadership preparation</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+  </ul>
+
+  <h2>Code & Automation</h2>
+  <ul>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built the /fantasy-football skill with 4 modes: Draft Prep, Live Draft, Weekly Matchup, and Trade Analyzer. Published blog post and pushed to GitHub.</div>
+        <div class="output">Skill + blog post on jasonhorne.org</div>
+      </div>
+      <span class="time-saved">~6h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built the /fact-check skill: analyzes .docx files for accuracy, consistency, and citation integrity. Tested on a GCS college readiness report (17 findings).</div>
+        <div class="output">New Claude Code skill</div>
+      </div>
+      <span class="time-saved">~4h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Built the /shopping skill: personal shopping assistant with size/brand memory, retailer search, and price comparison</div>
+        <div class="output">New Claude Code skill</div>
+      </div>
+      <span class="time-saved">~3h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Fixed Word comment XML rendering across 4 document review skills (doc-review, ai-paper-review, dissertator, fact-check). Comments were showing as hashtags instead of bubbles.</div>
+      </div>
+      <span class="time-saved">~4h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Installed oh-my-claudecode (multi-agent orchestration), Google Workspace CLI, and adapted 4 agency-agents personas for K-12 district use</div>
+        <div class="output">4 new skills: data-engineer, document-generator, training-designer, nexus-strategy</div>
+      </div>
+      <span class="time-saved">~5h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Organized git repo, tracked all Claude Code skills, cleaned up .claude directory structure. Pushed 9 new skills to GitHub (16 to 26 total).</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Overhauled CLAUDE.md with Obsidian integration, session startup protocol, output format rules, and git workarounds</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge claude">Claude Code</span>
+      <div>
+        <div class="task-text">Set up Roborock Q10 S5+ vacuum CLI control with interactive menu script</div>
+        <div class="output">roborock.command script</div>
+      </div>
+      <span class="time-saved">~2h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Discussed automating daily note-taking using voice notes and Obsidian workflows</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+  </ul>
+
+  <h2>Writing</h2>
+  <ul>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Reviewed and revised a blog post draft about using Claude Code to prepare for the Director of Schools interview</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+  </ul>
+
+  <h2>Personal</h2>
+  <ul>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Roborock vacuum troubleshooting: dustbin emptying, internal spinner replacement</div>
+      </div>
+      <span class="time-saved">~20m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Gardening: planting hydrangeas, preparing garden beds, removing grass, building a supply list</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge gemini">Gemini</span>
+      <div>
+        <div class="task-text">Visualized hydrangea varieties as a border for the backyard to help decide on a landscaping plan</div>
+      </div>
+      <span class="time-saved">~1h saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Full shopping list for painting a one-car garage, including primer guidance and drying times</div>
+      </div>
+      <span class="time-saved">~20m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">Paint color identification (Valspar 4003-1B) and visual representation</div>
+      </div>
+      <span class="time-saved">~10m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge gemini">Gemini</span>
+      <div>
+        <div class="task-text">Generated a "happy king" character image modeled after the Ghost of Christmas Present presiding over a feast</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge gemini">Gemini</span>
+      <div>
+        <div class="task-text">Visualized different flora options for curb appeal and back area borders</div>
+      </div>
+      <span class="time-saved">~30m saved</span>
+    </li>
+    <li>
+      <span class="tool-badge chatgpt">ChatGPT</span>
+      <div>
+        <div class="task-text">General curiosity: snooker rules, "Eureka" origin, clothing brand logos, visual grouping exercise, TV show about sky portals</div>
+      </div>
+      <span class="time-saved">~20m saved</span>
+    </li>
+  </ul>
+
+  <div class="stats">
+    <span>43</span> tasks across <span>4</span> AI tools &mdash; Claude Code, ChatGPT, Gemini, NotebookLM<br>
+    Estimated time saved: <span class="time-total">~105 hours</span>
+  </div>
+</div>
+</div>
+</body>
+</html>
